@@ -13,7 +13,7 @@
         color: rgb(224, 222, 244);
     }
 
-    .ico {
+    .ico32 {
         width: 32px;
         height: 32px;
         vertical-align: middle;
@@ -24,7 +24,7 @@
         background-image: url("./images/city.jpg");
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-position: center;
+        background-position: 50% 35%;
         height: 450px;
         text-align: center;
         overflow: hidden;
@@ -89,6 +89,7 @@
 
     .main {
         height: 80%;
+        /*padding, temp*/
     }
 
     footer {
@@ -96,7 +97,7 @@
         position: relative;
         bottom: 0;
         width: 100%;
-        padding: 3px;
+        padding: 3px 0px;
         background-color: rgb(42, 39, 63);
     }
 
