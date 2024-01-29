@@ -1,0 +1,110 @@
+/*rose pine moon*/
+@media(prefers-color-scheme: dark) {
+    body {
+        margin: 0;
+        background-color: rgb(35, 33, 54);
+    }
+
+    h1 {
+        color: rgb(224, 222, 244);
+    }
+
+    p {
+        color: rgb(224, 222, 244);
+    }
+
+    .ico {
+        width: 32px;
+        height: 32px;
+        vertical-align: middle;
+    }
+
+    .imBar {
+
+        background-image: url("./images/city.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        height: 450px;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: clip;
+
+    }
+
+    .blurBox {
+        -webkit-backdrop-filter: blur(6px);
+        backdrop-filter: blur(6px);
+        width: 100%;
+        position: relative;
+        height: 100%;
+
+    }
+
+    .imBar h1 {
+        color: rgb(42, 40, 62);
+        font-size: 14 cqb;
+        border-radius: 25px;
+        overflow: hidden;
+
+        width: fit-content;
+        padding: 20px;
+        margin: 0 auto;
+
+
+    }
+
+    .imBar p {
+        color: rgb(42, 40, 62);
+        font-size: 5 cqb;
+        border-radius: 12px;
+        overflow: hidden;
+
+        width: fit-content;
+        padding: 10px;
+        margin: 0 auto;
+
+
+    }
+
+    .navBar {
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        overflow: hidden;
+        background-color: rgb(42, 39, 63, 0.5);
+
+    }
+
+    .navBar a {
+        float: left;
+        color: rgb(224, 222, 244);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        opacity: 100%;
+    }
+
+    .main {
+        padding: 14px
+    }
+
+    footer {
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        padding: 3px;
+        background-color: rgb(42, 39, 63);
+    }
+
+    a {
+        color: rgb(196, 167, 231);
+    }
+
+    .main {
+        height: 80%;
+    }
+}
