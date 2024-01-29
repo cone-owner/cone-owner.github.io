@@ -88,7 +88,7 @@
     }
 
     .main {
-        padding: 14px
+        height: 80%;
     }
 
     footer {
@@ -104,7 +104,4 @@
         color: rgb(196, 167, 231);
     }
 
-    .main {
-        height: 90%;
-    }
 }
